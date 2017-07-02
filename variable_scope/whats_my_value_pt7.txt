@@ -1,0 +1,22 @@
+a = 7
+array = [1, 2, 3]
+
+array.each do |element|
+  a = element
+end
+
+puts a
+
+Pre-run answer:
+
+Because .each is a method, I believe the same behavior will result as in any other method seen previously, meaning, the outside scope a will remain 7 after the method completes.
+
+a outputs 7
+
+Post-run answer:
+
+And I am wrong again :(
+
+The output was 3. My mistake was that, although each is a method, the do/end portion is a block (separate from the each method) and, blocks have access to the outer scope variables. So, each time a = happens, it's actually assigning the reference for each element to the outer (actually same level of scope) variable a.
+
+Again, learning achieved :)

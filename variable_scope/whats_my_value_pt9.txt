@@ -1,0 +1,21 @@
+a = 7
+array = [1, 2, 3]
+
+array.each do |a|
+  a += 1
+end
+
+puts a
+
+Pre-run answer:
+
+So, I'm kind of afraid to answer this since I've not done so well on the previous two but... here goes.
+
+In this scenario, I believe that, since the parameter is named the same as the outerscoped variable that a local 'a' will be created. Since it's being used with an assignment operator (which doesn't mutate the caller), the local 'a' will get a reference to a new location with the result and, after the method completes, the externally scoped 'a' will remain 7. 
+
+Fingers crossed...
+
+Post-run answer:
+
+Whoohoo!!! 
+a outputs 7

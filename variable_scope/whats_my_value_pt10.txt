@@ -1,0 +1,23 @@
+a = 7
+array = [1, 2, 3]
+
+def my_value(ary)
+  ary.each do |b|
+    a += b
+  end
+end
+
+my_value(array)
+puts a
+
+Pre-run answer:
+
+Since the block is inside a method, the block shouldn't have access to the local variable 'a'. I believe this will throw a NameError: undefined local variable 'a' exception.
+
+a will remain 7 after the method fails.
+
+Post-run answer:
+
+Close, error but got an undefined method error for '+' on NilClass (since a is undefined).
+
+a outputs 7.

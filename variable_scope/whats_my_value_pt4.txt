@@ -1,0 +1,18 @@
+a = "Xyzzy"
+
+def my_value(b)
+  b[2] = '-'
+end
+
+my_value(a)
+puts a
+
+Pre-run answer:
+
+Since, we're using the [] method on String b (which will act just like an Array), the method will mutate the caller. That means, the value referenced by the location stored in b (which is the same as 'a' in the outer scope) will be modified.
+
+After the method, a will contain the value "Xy-zy"
+
+Post-run answer:
+
+"Xy-zy"

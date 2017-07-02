@@ -1,0 +1,23 @@
+a = 7
+
+def my_value(b)
+  b += 10
+end
+
+my_value(a)
+puts a
+
+Pre-run answer:
+
+This is my understanding based on my reading so far:
+
+The reference contained in variable a is passed to the method and copied into variable b (which is only in scope within the method).
+
+When the expression 'b += 10' is evaluated, the assignment portion of that expression changes the reference value stored in b (i.e. the address pointing to a location in memory contained in variable 'b') to a new reference that points to the integer value the expression evaluated to (17).
+
+So, in the method, after b += 10, b gets pointed to a new location in memory containing the value 17. The memory location pointed at by 'a' never changed. It still points to the original location when still contains the integer value 7.
+Post-run answer:
+
+a outputs 7 after my_value is run.
+
+

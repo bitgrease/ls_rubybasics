@@ -1,0 +1,19 @@
+a = 7
+
+def my_value(a)
+  a += 10
+end
+
+my_value(a)
+puts a
+
+
+Pre-run answer:
+
+This is the same as the previous exercise. Just because the method variable and the outside scope variable have the same id doesn't change how Ruby behaves in this scenario.
+
+puts a will be 7 after the method runs.
+
+Post-run answer
+
+puts a outputs '7'

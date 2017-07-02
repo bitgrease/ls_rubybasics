@@ -1,0 +1,20 @@
+a = 7
+
+def my_value(b)
+  a = b
+end
+
+my_value(a + 5)
+puts a
+
+Pre-run answer:
+
+In this scenario, since we're passing the reference to the value 12 in as variable b and then assigning that <em>reference</em> to a (which is using the a from the outside scope). The puts a after the method will output 12.
+
+Post-run answer:
+
+a outputs 7
+
+I was completely wrong :/
+
+Inside a method, the outer scoped variables are not accessible, I was getting confused with procs/lambdas. Learning achieved :) 

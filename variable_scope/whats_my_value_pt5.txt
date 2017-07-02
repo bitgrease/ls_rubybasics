@@ -1,0 +1,16 @@
+a = "Xyzzy"
+
+def my_value(b)
+  b = 'yzzyX'
+end
+
+my_value(a)
+puts a
+
+Pre-run answer:
+
+a will output "Xyzzy" because the assignment inside the method will just assign a reference to object 'yzzyX' to variable b. 
+
+Post-run answer:
+
+"Xyzzy"

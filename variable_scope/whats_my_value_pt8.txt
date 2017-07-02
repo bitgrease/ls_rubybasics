@@ -1,0 +1,19 @@
+array = [1, 2, 3]
+
+array.each do |element|
+  a = element
+end
+
+puts a
+
+Pre-run answer:
+
+a is created on the first assignment inside the block. The variable a will contain the last element assigned as in the previous exercise.
+
+a outputs 3 after the block completes.
+
+Post-run answer:
+
+Again, wrong! I had assumed that since outer scope variables were accessible inside blocks that the scope was the same (i.e. a declared inside the block would persist after the block completed). That was an incorrect assumption. So, the correct answer is that a was only viable inside the block scope. If there had been an externally scoped a that would have been used but, since there was none, it created a local copy (local to the block) which went away once the block finished.
+
+NameError: undefined local variable or method `a' for main:Object
