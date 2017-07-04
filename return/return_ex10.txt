@@ -1,0 +1,8 @@
+Pre-run answer:
+
+Well, based on previous discussions, I'd guess that it will print:
+
+1
+
+Since that's the last statement that was evaluated. I would assume that the '2' would not be evaluated since it's in the false branch which won't get run.
+

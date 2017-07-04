@@ -1,0 +1,5 @@
+Pre-run answer:
+
+Same as before, the string is returned and puts-ing the string will output:
+
+"Evening\n"

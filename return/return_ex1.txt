@@ -1,0 +1,6 @@
+Pre-run answer:
+
+The method will return
+
+Breakfast and the puts will print:
+"Breakfast\n"

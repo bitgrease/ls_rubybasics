@@ -1,0 +1,21 @@
+Pre-run answer:
+
+0
+1
+2
+3
+4
+
+Post-run answer:
+
+I didn't realize (did not check the docs) that the #times method returned the initial 
+integer.
+
+0
+1
+2
+3
+4
+5
+
+

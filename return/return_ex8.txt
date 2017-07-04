@@ -1,0 +1,10 @@
+Pre-run answer:
+
+0
+1
+2
+3
+4
+10
+
+Because 10 is the last expression evaluated.

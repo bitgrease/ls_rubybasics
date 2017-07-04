@@ -1,0 +1,14 @@
+Pre-run answer:
+
+0
+1
+2
+
+Since the return is explicit and empty, I'm thinking it will return nil
+
+Ah, I didn't pay close enough attention and see that it was a 'p' and not 'puts' so, the nil is actually output to STDOUT.
+
+0
+1
+2
+nil

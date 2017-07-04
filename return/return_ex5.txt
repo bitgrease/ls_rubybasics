@@ -1,0 +1,8 @@
+Pre-run answer:
+
+The code will print:
+
+"Dinner\n"
+nil
+
+Because the value returned from the method (what's passed to p) is the value nil (the return value from the last statement which was a puts).

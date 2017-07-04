@@ -1,0 +1,4 @@
+The code will print out:
+
+"Dinner\n"
+"Breakfast\n"
