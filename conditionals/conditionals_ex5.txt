@@ -1,0 +1,6 @@
+Pre-run answer:
+
+'7' will evaluate to true so:
+
+My favoriate number is 7.
+
